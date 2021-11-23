@@ -4,7 +4,7 @@ auth:
   enabled: true
   username: ratings
   database: ratings
-  existingSecret: bookinfo-dev-ratings-mongodb-secret
+  existingSecret: bookinfo-uat-ratings-mongodb-secret
 persistence:
   enabled: false
-initdbScriptsConfigMap: bookinfo-dev-ratings-mongodb-initdb
+initdbScriptsConfigMap: bookinfo-uat-ratings-mongodb-initdb
